@@ -1,0 +1,66 @@
+{
+    "name": "mafstat",
+    "description": "mafstat website сontent management system",
+    "keywords": ["mafstat"],
+    "homepage": "http://mafstat.ru",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.0",
+        "yiisoft/yii2": "2.0.49.3",
+        "yiisoft/yii2-bootstrap": "~2.0.0",
+        "yiisoft/yii2-swiftmailer": "~2.1.0",
+        "yiisoft/yii2-imagine": "*",
+        "aquy/yii2-gallery-manager": "*",
+        "aquy/yii2-thumbnail": "*",
+        "la-haute-societe/yii2-save-relations-behavior": "*",
+        "voskobovich/yii2-many-many-behavior": "*",
+        "vova07/yii2-imperavi-widget": "*",
+        "creocoder/yii2-nested-sets": "*",
+        "klisl/yii2-nested-sets-drag-and-drop": "*",
+        "bower-asset/contenttools": "^1.0.1",
+        "kartik-v/yii2-editable": "*",
+        "kartik-v/yii2-field-range": "*",
+        "kartik-v/yii2-widget-select2": "*",
+        "kartik-v/yii2-widget-datepicker": "*",
+        "kartik-v/yii2-widget-datetimepicker": "*",
+        "yiisoft/yii2-sphinx": "~2.0.0",
+        "phpnt/yii2-chartjs": "*",
+        "oonne/yii2-sortable-grid-view": "*",
+        "unclead/yii2-multiple-input": "^2.22",
+        "yii-dream-team/yii2-upload-behavior": "^1.2",
+        "yiisoft/yii2-httpclient": "^2.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "karpalex98/yii2-upload-behavior": "^1.2",
+        "ext-intl": "*",
+        "yiisoft/yii2-queue": "^2.3",
+        "ext-imagick": "*",
+        "guzzlehttp/guzzle": "^7.0",
+        "ext-dom": "*",
+        "wapmorgan/yii2-inflection": "*",
+        "async-aws/simple-s3": "^2.1",
+        "phpoffice/phpspreadsheet": "*",
+      "ext-zip": "*"
+    },
+    "require-dev": {
+        "yiisoft/yii2-debug": "~2.0.0",
+        "yiisoft/yii2-gii": "~2.0.0"
+    },
+    "config": {
+        "process-timeout": 1800,
+        "fxp-asset": {
+            "enabled": false
+        },
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
